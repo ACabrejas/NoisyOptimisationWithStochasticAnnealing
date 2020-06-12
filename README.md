@@ -2,10 +2,10 @@
 Noisy Optimization with Optimal Stochastic Annealing.
 
 This is an implementation and proof of concept of the algorithm "Optimal Sampling for Simulated Annealing Under Noise".
-This algorithm was developed by Juergen Branke and Robin C. Ball, and compared against other commercial algorithms by me.
-The comparison was performed in the scope of the independent Final report for the MSc in Mathematics for Real-World Systems, Centre for Complexity Science, University of Warwick.
-
+This algorithm was developed by Juergen Branke and Robin C. Ball.
 The published paper can be found in https://pubsonline.informs.org/doi/abs/10.1287/ijoc.2017.0774?journalCode=ijoc .
+
+The comparison was performed in the scope of the independent Final report for the MSc in Mathematics for Real-World Systems, Centre for Complexity Science, University of Warwick, in collaboration with Lanner Ltd., developer of the commercial optimiser for industrial processes WITNESS Horizon (https://www.lanner.com/en-us/technology/witness-simulation-software.html).
 
 This algorithm is a simulated annealing variant for optimization problems in which the solution quality can only be estimated by sampling from a random distribution. The aim is to find the solution with the best expected performance, as, e.g., is typical for problems where solutions are evaluated using a stochastic simulation. 
 
